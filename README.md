@@ -1,11 +1,11 @@
 # TODO
 
-### Links
+## Links
 
 - Solution URL: [Solution URL](https://github.com/natiaker/todo.git)
 - Live Site URL: [Live site URL](https://natiaker.github.io/todo/)
 
-### Built with
+## Built with
 
 - React
 - CSS module
