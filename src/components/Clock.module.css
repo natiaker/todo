@@ -1,0 +1,31 @@
+.header {
+  font-family: "Russo One", sans-serif;
+  height: 202px;
+  background-image: url(https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 28px;
+  padding-bottom: 13px;
+}
+
+.time {
+  font-size: 48px;
+  line-height: 58px;
+  margin: 0;
+  font-weight: 400;
+  text-shadow: -4px 6px 6px black;
+}
+
+.date {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  text-shadow: -4px 4px 3px black;
+}

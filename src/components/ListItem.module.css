@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 18px;
+  text-transform: capitalize;
+  max-width: 250px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid orange;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox:checked {
+  background-color: orange;
+  color: white;
+}
+
+.checkbox:checked:after {
+  content: "\2714";
+  font-size: 15px;
+}

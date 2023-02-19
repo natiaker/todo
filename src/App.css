@@ -1,0 +1,15 @@
+.App {
+  margin: 162px 0;
+  background-color: white;
+  width: 100%;
+  max-width: 430px;
+  border-radius: 10px;
+  font-weight: 400;
+  padding-bottom: 78px;
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    width: 430px;
+  }
+}

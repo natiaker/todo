@@ -1,0 +1,42 @@
+.listContainer {
+  font-family: "Inter", sans-serif;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+  margin-bottom: 36px;
+  gap: 10px;
+}
+
+.input {
+  font-size: 16px;
+  width: 58%;
+  border: none;
+  background: #ebeff2;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 23px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  width: 88px;
+  height: 48px;
+  color: white;
+  font-size: 25px;
+  background: orange;
+  border-radius: 5px;
+  margin-right: 23px;
+  cursor: pointer;
+}
+
+.listItems {
+  padding: 0 28px;
+}
