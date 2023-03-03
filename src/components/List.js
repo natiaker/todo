@@ -21,7 +21,7 @@ const List = () => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    if (todo && todo.length <= 25) {
+    if (todo) {
       setList([
         {
           id: uuid(),
@@ -61,6 +61,7 @@ const List = () => {
           placeholder='Note'
           value={todo}
           onChange={e => {
+            if (e.target.value.length > 25) return;
             setTodo(e.target.value);
           }}
         />
