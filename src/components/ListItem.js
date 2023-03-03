@@ -5,7 +5,7 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 const ListItem = ({ id, item, date, time, handleDelete }) => {
   const olderDate = date;
   const currentDate = new Date().getDate();
-  const diff = olderDate - currentDate;
+  const diff = currentDate - olderDate;
   const formatter = new Intl.RelativeTimeFormat("en", { numeric: "auto" });
   const newDate = formatter.format(Math.round(diff), "day");
 
